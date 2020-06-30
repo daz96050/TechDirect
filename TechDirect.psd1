@@ -80,6 +80,7 @@ This Module can also be used to get Warranty and Device information of one or mo
 	
 	# Functions to export from this module
 	FunctionsToExport = @(
+		'New-TDInvocation',
 		'Connect-TechDirect',
 		'Get-TDAccessToken',
 		'Format-DispatchPart',
@@ -93,7 +94,8 @@ This Module can also be used to get Warranty and Device information of one or mo
 		'Get-DeviceWarranty',
 		'Redo-DispatchRequest',
 		'Convert-FileToBase64',
-		'Convert-TDStatusCode'
+		'Convert-TDStatusCode',
+		'Get-ErrorResult'
 	) #For performance, list functions explicitly
 	
 	# Cmdlets to export from this module
